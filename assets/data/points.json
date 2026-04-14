@@ -1,0 +1,275 @@
+[
+  {
+    "name_ru": "Свищево",
+    "name_krl": "",
+    "lat": 58.28122623,
+    "lon": 35.56720959,
+    "x": 2360,
+    "y": 590,
+    "audio": [
+      {"title": "Mie naduumaičiin naija", "file": "5185_1.mp3"}
+    ],
+    "images": ["1556.jpg", "1557.jpg", "1558.jpg", "1559.jpg"]
+  },
+  {
+    "name_ru": "Семеновское",
+    "name_krl": "",
+    "lat": 56.0611789,
+    "lon": 34.9688499,
+    "x": 2190,
+    "y": 2550,
+    "audio": [
+      {"title": "Voinan aigah", "file": "4264_1.mp3"}
+    ],
+    "images": ["1520.jpg","1521.jpg","1522.jpg"]
+  },
+  {
+    "name_ru": "Зубачиха",
+    "name_krl": "",
+    "lat": 57.60909,
+    "lon": 36.141497,
+    "x": 2590,
+    "y": 1190,
+    "audio": [
+      {"title": "Oli ruaduo", "file": "6897_1.mp3"}
+    ],
+    "images": []
+  },
+  {
+    "name_ru": "Ключевая",
+    "name_krl": "",
+    "lat": 57.630453,
+    "lon": 36.128211,
+    "x": 2584,
+    "y": 1170,
+    "audio": [
+      {"title": "Pidi kylbie", "file": "6899_1.mp3"}
+    ],
+    "images": [
+      "1582.jpg","1584.jpg","1585.jpg","1587.jpg","1588.jpg"
+    ]
+  },
+  {
+    "name_ru": "Большая Воздвиженка",
+    "name_krl": "",
+    "lat": 57.608791,
+    "lon": 35.793741,
+    "x": 2440,
+    "y": 1180,
+    "audio": [
+      {"title": "Kyly, eri vigahizet", "file": "7165_1.mp3"}
+    ],
+    "images": []
+  },
+  {
+    "name_ru": "Еремеевка",
+    "name_krl": "",
+    "lat": 57.574281,
+    "lon": 35.377479,
+    "x": 2280,
+    "y": 1211,
+    "audio": [
+      {"title": "Nasto-buabo", "file": "3878.mp3"}
+    ],
+    "images": ["1554.jpg"]
+  },
+  {
+    "name_ru": "Андрюково",
+    "name_krl": "",
+    "lat": 57.445736,
+    "lon": 35.474974,
+    "x": 2320,
+    "y": 1310,
+    "audio": [
+      {"title": "Matr’o-buabo", "file": "6884_1.mp3"},
+      {"title": "Paimenen ruado", "file": "6931_1.mp3"}
+    ],
+    "images": []
+  },
+  {
+    "name_ru": "Ветчино",
+    "name_krl": "",
+    "lat": 57.444002,
+    "lon": 35.51131,
+    "x": 2336,
+    "y": 1312,
+    "audio": [
+      {"title": "Nuattirokka", "file": "6877_1.mp3"}
+    ],
+    "images": []
+  },
+  {
+    "name_ru": "Высокое",
+    "name_krl": "",
+    "lat": 57.512717,
+    "lon": 35.802315,
+    "x": 2444,
+    "y": 1260,
+    "audio": [
+      {"title": "Korgein časoun’a", "file": "5833_1.mp3"}
+    ],
+    "images": ["1493.jpg"]
+  },
+  {
+    "name_ru": "Гнездово",
+    "name_krl": "",
+    "lat": 57.411667,
+    "lon": 35.500342,
+    "x": 2331,
+    "y": 1335,
+    "audio": [
+      {"title": "Voinan aigah", "file": "6853_1.mp3"},
+      {"title": "Častuškat, pruazniekkasripnät", "file": "6939_1.mp3"}
+    ],
+    "images": [
+      "1561.jpg","1562.jpg","1565.jpg","1566.jpg","1567.jpg","1568.jpg",
+      "1569.jpg","1571.jpg","1572.jpg","1573.jpg","1647.jpg","1648.jpg","1649.jpg"
+    ]
+  },
+  {
+    "name_ru": "Заболотье",
+    "name_krl": "",
+    "lat": 57.412802,
+    "lon": 35.833085,
+    "x": 2460,
+    "y": 1334,
+    "audio": [
+      {"title": "Oma pereh", "file": "5835_1.mp3"}
+    ],
+    "images": ["1491.jpg"]
+  },
+  {
+    "name_ru": "Заручье",
+    "name_krl": "",
+    "lat": 57.311519,
+    "lon": 36.354525,
+    "x": 2690,
+    "y": 1480,
+    "audio": [
+      {"title": "Suaharuo himottau", "file": "5316_1.mp3"}
+    ],
+    "images": []
+  },
+  {
+    "name_ru": "Колодово",
+    "name_krl": "",
+    "lat": 57.300356,
+    "lon": 35.71395,
+    "x": 2400,
+    "y": 1430,
+    "audio": [
+      {"title": "Oli yksi akkane", "file": "6761_1.mp3"}
+    ],
+    "images": []
+  },
+  {
+    "name_ru": "Мосеевское",
+    "name_krl": "",
+    "lat": 58.3926,
+    "lon": 37.41005,
+    "x": 3180,
+    "y": 446,
+    "audio": [
+      {"title": "Mi̬as’l’enčan’ed’el’illä...", "file": "2045_1.mp3"}
+    ],
+    "images": []
+  },
+  {
+    "name_ru": "Мохнецы",
+    "name_krl": "",
+    "lat": 57.32860893,
+    "lon": 35.81280064,
+    "x": 2440,
+    "y": 1400,
+    "audio": [
+      {"title": "Veššelä on", "file": "5834_1.mp3"}
+    ],
+    "images": ["1492.jpg"]
+  },
+  {
+    "name_ru": "Павлово",
+    "name_krl": "",
+    "lat": 57.379556,
+    "lon": 35.513026,
+    "x": 2337,
+    "y": 1350,
+    "audio": [
+      {"title": "Kizat", "file": "6860_1.mp3"}
+    ],
+    "images": []
+  },
+  {
+    "name_ru": "Плоское",
+    "name_krl": "",
+    "lat": 57.544835,
+    "lon": 35.444224,
+    "x": 2305,
+    "y": 1230,
+    "audio": [
+      {"title": "Houkka briha", "file": "6900_1.mp3"},
+      {"title": "Houkka poiga", "file": "6901_1.mp3"}
+    ],
+    "images": []
+  },
+  {
+    "name_ru": "Сосновка",
+    "name_krl": "",
+    "lat": 57.49684,
+    "lon": 35.672414,
+    "x": 2390,
+    "y": 1270,
+    "audio": [
+      {"title": "Vuarničča", "file": "6879_1.mp3"}
+    ],
+    "images": []
+  },
+  {
+    "name_ru": "Стан",
+    "name_krl": "",
+    "lat": 57.383312,
+    "lon": 35.419062,
+    "x": 2294,
+    "y": 1345,
+    "audio": [
+      {"title": "Lähet meččäh", "file": "6856_1.mp3"}
+    ],
+    "images": ["1578.jpg","1579.jpg"]
+  },
+  {
+    "name_ru": "Толмачи",
+    "name_krl": "",
+    "lat": 57.42721,
+    "lon": 35.69048,
+    "x": 2398,
+    "y": 1305,
+    "audio": [
+      {"title": "Elettih cuari da carevna", "file": "6854_1.mp3"},
+      {"title": "Aštuu čibane", "file": "6855_1.mp3"}
+    ],
+    "images": ["1575.jpg","1576.jpg","1577.jpg"]
+  },
+  {
+    "name_ru": "Устюги",
+    "name_krl": "",
+    "lat": 57.28161397,
+    "lon": 36.42871408,
+    "x": 2730,
+    "y": 1500,
+    "audio": [
+      {"title": "Ennein eliässeh elettih ukko da akka", "file": "2042_1.mp3"}
+    ],
+    "images": []
+  },
+  {
+    "name_ru": "Черняево",
+    "name_krl": "",
+    "lat": 57.389036,
+    "lon": 35.642168,
+    "x": 2370,
+    "y": 1340,
+    "audio": [
+      {"title": "Juduakka", "file": "6746_1.mp3"}
+    ],
+    "images": []
+  }
+]
