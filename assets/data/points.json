@@ -1,81 +1,7 @@
 [
   {
-    "name_ru": "Свищево",
-    "name_krl": "",
-    "lat": 58.28122623,
-    "lon": 35.56720959,
-    "x": 2360,
-    "y": 590,
-    "audio": [
-      {"title": "Mie naduumaičiin naija", "file": "5185_1.mp3"}
-    ],
-    "images": ["1556.jpg", "1557.jpg", "1558.jpg", "1559.jpg"]
-  },
-  {
-    "name_ru": "Семеновское",
-    "name_krl": "",
-    "lat": 56.0611789,
-    "lon": 34.9688499,
-    "x": 2190,
-    "y": 2550,
-    "audio": [
-      {"title": "Voinan aigah", "file": "4264_1.mp3"}
-    ],
-    "images": ["1520.jpg","1521.jpg","1522.jpg"]
-  },
-  {
-    "name_ru": "Зубачиха",
-    "name_krl": "",
-    "lat": 57.60909,
-    "lon": 36.141497,
-    "x": 2590,
-    "y": 1190,
-    "audio": [
-      {"title": "Oli ruaduo", "file": "6897_1.mp3"}
-    ],
-    "images": []
-  },
-  {
-    "name_ru": "Ключевая",
-    "name_krl": "",
-    "lat": 57.630453,
-    "lon": 36.128211,
-    "x": 2584,
-    "y": 1170,
-    "audio": [
-      {"title": "Pidi kylbie", "file": "6899_1.mp3"}
-    ],
-    "images": [
-      "1582.jpg","1584.jpg","1585.jpg","1587.jpg","1588.jpg"
-    ]
-  },
-  {
-    "name_ru": "Большая Воздвиженка",
-    "name_krl": "",
-    "lat": 57.608791,
-    "lon": 35.793741,
-    "x": 2440,
-    "y": 1180,
-    "audio": [
-      {"title": "Kyly, eri vigahizet", "file": "7165_1.mp3"}
-    ],
-    "images": []
-  },
-  {
-    "name_ru": "Еремеевка",
-    "name_krl": "",
-    "lat": 57.574281,
-    "lon": 35.377479,
-    "x": 2280,
-    "y": 1211,
-    "audio": [
-      {"title": "Nasto-buabo", "file": "3878.mp3"}
-    ],
-    "images": ["1554.jpg"]
-  },
-  {
     "name_ru": "Андрюково",
-    "name_krl": "",
+    "name_krl": "Ondrikova",
     "lat": 57.445736,
     "lon": 35.474974,
     "x": 2320,
@@ -87,8 +13,20 @@
     "images": []
   },
   {
+    "name_ru": "Большая Воздвиженка",
+    "name_krl": "Sviizenie",
+    "lat": 57.608791,
+    "lon": 35.793741,
+    "x": 2440,
+    "y": 1180,
+    "audio": [
+      {"title": "Kyly, eri vigahizet", "file": "7165_1.mp3"}
+    ],
+    "images": []
+  },
+  {
     "name_ru": "Ветчино",
-    "name_krl": "",
+    "name_krl": "Veččinä",
     "lat": 57.444002,
     "lon": 35.51131,
     "x": 2336,
@@ -100,7 +38,7 @@
   },
   {
     "name_ru": "Высокое",
-    "name_krl": "",
+    "name_krl": "Korgei",
     "lat": 57.512717,
     "lon": 35.802315,
     "x": 2444,
@@ -112,7 +50,7 @@
   },
   {
     "name_ru": "Гнездово",
-    "name_krl": "",
+    "name_krl": "Gnezdova",
     "lat": 57.411667,
     "lon": 35.500342,
     "x": 2331,
@@ -127,8 +65,20 @@
     ]
   },
   {
+    "name_ru": "Еремеевка",
+    "name_krl": "Šalo",
+    "lat": 57.574281,
+    "lon": 35.377479,
+    "x": 2280,
+    "y": 1211,
+    "audio": [
+      {"title": "Nasto-buabo", "file": "3878.mp3"}
+    ],
+    "images": ["1554.jpg"]
+  },
+  {
     "name_ru": "Заболотье",
-    "name_krl": "",
+    "name_krl": "Zuablot’ja",
     "lat": 57.412802,
     "lon": 35.833085,
     "x": 2460,
@@ -140,7 +90,7 @@
   },
   {
     "name_ru": "Заручье",
-    "name_krl": "",
+    "name_krl": "Zaruučča",
     "lat": 57.311519,
     "lon": 36.354525,
     "x": 2690,
@@ -151,8 +101,34 @@
     "images": []
   },
   {
+    "name_ru": "Зубачиха",
+    "name_krl": "Zubačiha",
+    "lat": 57.60909,
+    "lon": 36.141497,
+    "x": 2590,
+    "y": 1190,
+    "audio": [
+      {"title": "Oli ruaduo", "file": "6897_1.mp3"}
+    ],
+    "images": []
+  },
+  {
+    "name_ru": "Ключевая",
+    "name_krl": "Kl’učevoi",
+    "lat": 57.630453,
+    "lon": 36.128211,
+    "x": 2584,
+    "y": 1170,
+    "audio": [
+      {"title": "Pidi kylbie", "file": "6899_1.mp3"}
+    ],
+    "images": [
+      "1582.jpg","1584.jpg","1585.jpg","1587.jpg","1588.jpg"
+    ]
+  },
+  {
     "name_ru": "Колодово",
-    "name_krl": "",
+    "name_krl": "Kolodova",
     "lat": 57.300356,
     "lon": 35.71395,
     "x": 2400,
@@ -164,7 +140,7 @@
   },
   {
     "name_ru": "Мосеевское",
-    "name_krl": "",
+    "name_krl": "Mois’ova",
     "lat": 58.3926,
     "lon": 37.41005,
     "x": 3180,
@@ -176,7 +152,7 @@
   },
   {
     "name_ru": "Мохнецы",
-    "name_krl": "",
+    "name_krl": "Mohneččä",
     "lat": 57.32860893,
     "lon": 35.81280064,
     "x": 2440,
@@ -188,7 +164,7 @@
   },
   {
     "name_ru": "Павлово",
-    "name_krl": "",
+    "name_krl": "Paulova",
     "lat": 57.379556,
     "lon": 35.513026,
     "x": 2337,
@@ -200,7 +176,7 @@
   },
   {
     "name_ru": "Плоское",
-    "name_krl": "",
+    "name_krl": "Ploskoi",
     "lat": 57.544835,
     "lon": 35.444224,
     "x": 2305,
@@ -212,8 +188,32 @@
     "images": []
   },
   {
+    "name_ru": "Свищево",
+    "name_krl": "Sviššova",
+    "lat": 58.28122623,
+    "lon": 35.56720959,
+    "x": 2360,
+    "y": 590,
+    "audio": [
+      {"title": "Mie naduumaičiin naija", "file": "5185_1.mp3"}
+    ],
+    "images": ["1556.jpg", "1557.jpg", "1558.jpg", "1559.jpg"]
+  },
+  {
+    "name_ru": "Семеновское",
+    "name_krl": "Semnoskoi",
+    "lat": 56.0611789,
+    "lon": 34.9688499,
+    "x": 2190,
+    "y": 2550,
+    "audio": [
+      {"title": "Voinan aigah", "file": "4264_1.mp3"}
+    ],
+    "images": ["1520.jpg","1521.jpg","1522.jpg"]
+  },
+  {
     "name_ru": "Сосновка",
-    "name_krl": "",
+    "name_krl": "Sosnouhka",
     "lat": 57.49684,
     "lon": 35.672414,
     "x": 2390,
@@ -225,7 +225,7 @@
   },
   {
     "name_ru": "Стан",
-    "name_krl": "",
+    "name_krl": "Stuanu",
     "lat": 57.383312,
     "lon": 35.419062,
     "x": 2294,
@@ -237,7 +237,7 @@
   },
   {
     "name_ru": "Толмачи",
-    "name_krl": "",
+    "name_krl": "Tolmačču",
     "lat": 57.42721,
     "lon": 35.69048,
     "x": 2398,
@@ -250,7 +250,7 @@
   },
   {
     "name_ru": "Устюги",
-    "name_krl": "",
+    "name_krl": "Us’t’joga",
     "lat": 57.28161397,
     "lon": 36.42871408,
     "x": 2730,
@@ -262,7 +262,7 @@
   },
   {
     "name_ru": "Черняево",
-    "name_krl": "",
+    "name_krl": "Černievä",
     "lat": 57.389036,
     "lon": 35.642168,
     "x": 2370,

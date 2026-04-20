@@ -1,6 +1,8 @@
 from PySide6.QtWidgets import QFrame, QVBoxLayout, QHBoxLayout, QLabel, QPushButton
 from PySide6.QtMultimedia import QMediaPlayer, QAudioOutput
 from PySide6.QtCore import QUrl, Signal, QTimer
+from PySide6.QtSvg import QSvgRenderer
+from PySide6.QtGui import QImage, QPainter, QPixmap
 
 import os
 
@@ -15,7 +17,6 @@ class AudioPlayerWidget(QFrame):
     playingStarted = Signal()
     playingStopped = Signal()
 
-
     def __init__(self, project_root):
         super().__init__()
 
@@ -23,15 +24,22 @@ class AudioPlayerWidget(QFrame):
         self.setObjectName("audioPlayer")
         self.layout = QVBoxLayout(self)
         self.layout.setContentsMargins(15, 15, 15, 15)
-        self.layout.setSpacing(15)
+        self.layout.setSpacing(4)
 
         # --- Header ---
         header = QHBoxLayout()
         header.setContentsMargins(0, 0, 0, 0)
 
-        self.title_label = QLabel("Фрагменты речи")
-        self.title_label.setStyleSheet("font-size: 20px; font-weight: bold;")
+        # SVG ICON
+        self.icon_label = QLabel()
+        self.icon_label.setFixedSize(28, 28)
+        self._load_icon()
 
+        # TITLE
+        self.title_label = QLabel("Фрагменты речи")
+        self.title_label.setStyleSheet("font-size: 24px; font-weight: bold;")
+
+        # CLOSE BUTTON
         self.btn_close = QPushButton("✕")
         self.btn_close.setFixedSize(62, 62)
         self.btn_close.setStyleSheet("""
@@ -47,6 +55,9 @@ class AudioPlayerWidget(QFrame):
         """)
         self.btn_close.clicked.connect(self._on_close)
 
+        # HEADER LAYOUT
+        header.addWidget(self.icon_label)
+        header.addSpacing(8)
         header.addWidget(self.title_label)
         header.addStretch()
         header.addWidget(self.btn_close)
@@ -76,6 +87,24 @@ class AudioPlayerWidget(QFrame):
         self.rows = []
         self.audio_list = []
         self.current_index = -1
+
+    # ----------------------------------------------------
+    # SVG ICON LOADING
+    # ----------------------------------------------------
+
+    def _load_icon(self):
+        svg_path = os.path.join(self.project_root, "assets", "map", "map-pin.svg")
+
+        renderer = QSvgRenderer(svg_path)
+        image = QImage(28, 28, QImage.Format_ARGB32)
+        image.fill(0)
+
+        painter = QPainter(image)
+        renderer.render(painter)
+        painter.end()
+
+        pixmap = QPixmap.fromImage(image)
+        self.icon_label.setPixmap(pixmap)
 
     # ----------------------------------------------------
     # Загрузка списка треков
@@ -169,11 +198,10 @@ class AudioPlayerWidget(QFrame):
             return
 
         # Автопереход НЕ является пользовательским действием
-        # idle сбросится автоматически через PlayingState
         self.play_track(index)
 
     # ----------------------------------------------------
-    # Idle‑интеграция: сброс таймера, пока аудио играет
+    # Idle‑интеграция
     # ----------------------------------------------------
 
     def _on_state_changed(self, state):
@@ -182,14 +210,12 @@ class AudioPlayerWidget(QFrame):
         else:
             self.playingStopped.emit()
 
-
-
     # ----------------------------------------------------
     # Закрытие плеера
     # ----------------------------------------------------
 
     def _on_close(self):
-        self.userActivity.emit()   # ← пользователь закрыл плеер
+        self.userActivity.emit()
         self.stop()
         self.hide()
         self.closed.emit()

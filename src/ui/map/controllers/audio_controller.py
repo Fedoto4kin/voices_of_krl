@@ -34,7 +34,15 @@ class AudioController(QObject):
         if not audio_list:
             return
 
-        self.player_widget.set_title(data.get("name_ru", ""))
+        name_ru = data.get("name_ru", "")
+        name_krl = data.get("name_krl", "")
+
+        if name_krl:
+            title = f"{name_krl} ({name_ru})"
+        else:
+            title = name_ru
+
+        self.player_widget.set_title(title)
         self.player_widget.load_audio_list(audio_list)
         self.player_widget.show()
 

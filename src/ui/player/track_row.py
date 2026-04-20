@@ -42,7 +42,7 @@ class TrackRow(QWidget):
 
         self.btn.clicked.connect(self.toggle)
         self.label = QLabel(title)
-        self.label.setStyleSheet("font-size: 18px;")
+        self.label.setStyleSheet("font-size: 22px;")
         self.wave = SpotifyBarsWidget(bars=10)
         self.wave.setFixedHeight(40)
         layout.addWidget(self.wave)
